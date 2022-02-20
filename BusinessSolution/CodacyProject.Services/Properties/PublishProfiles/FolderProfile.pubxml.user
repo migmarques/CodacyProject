@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Personal\CodacyProjectRepo\WebAPI</_PublishTargetUrl>
+    <History>True|2022-02-20T22:13:51.5769673Z;True|2022-02-20T22:11:14.7691929+00:00;True|2022-02-20T22:09:08.4153024+00:00;True|2022-02-20T22:08:48.8680538+00:00;True|2022-02-20T22:02:29.7248652+00:00;True|2022-02-20T21:52:59.7857965+00:00;True|2022-02-20T21:48:59.5085669+00:00;True|2022-02-20T21:47:20.5802104+00:00;True|2022-02-20T21:46:26.2676527+00:00;True|2022-02-20T21:40:55.2413703+00:00;</History>
+  </PropertyGroup>
+</Project>
