@@ -1,1 +1,10 @@
-RunCodacyProject/
+BusinessSolution/RunCodacyProject/
+BusinessSolution/CodacyProject/bin/
+BusinessSolution/CodacyProject/obj/
+BusinessSolution/CodacyProject.Common/bin/
+BusinessSolution/CodacyProject.Common/obj/
+BusinessSolution/packages/
+BusinessSolution/TestResults/
+BusinessSolution/CodacyProject.Tests/bin/
+BusinessSolution/CodacyProject.Tests/obj/
+.vs
