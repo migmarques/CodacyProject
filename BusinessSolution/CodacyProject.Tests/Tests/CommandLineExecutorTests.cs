@@ -11,9 +11,9 @@ namespace CodacyProject.Tests
         [TestCleanup]
         public void TestCleanUp()
         {
-            if(Directory.Exists("TestFolder"))
+            if(Directory.Exists("C:\\TestFolder"))
             {
-                Directory.Delete("TestFolder");
+                Directory.Delete("C:\\TestFolder");
             }
         }
 
@@ -22,13 +22,13 @@ namespace CodacyProject.Tests
         {
             try
             {
-                CommandLineExecutor.RunCommand("mkdir TestFolder");
+                CommandLineExecutor.RunCommand("mkdir C:\\TestFolder");
             } catch(Exception e)
             {
                 Assert.Fail("Unexpected error occured: " + e.Message);
             }
 
-            Assert.IsTrue(Directory.Exists("TestFolder"), "TestFolder must have been created");
+            Assert.IsTrue(Directory.Exists("C:\\TestFolder"), "TestFolder must have been created");
         }
 
         [TestMethod]

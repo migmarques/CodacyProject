@@ -61,7 +61,7 @@ namespace CodacyProject.Tests
             }
 
             Assert.IsFalse(string.IsNullOrWhiteSpace(errorMessage), "Error message should have been thrown");
-            Assert.AreEqual("The provided repository URL does not exist.", errorMessage, "Error message when repository does not exist should have been thrown");
+            Assert.IsTrue(errorMessage.Contains("Repository URL validation failed."), "Error message when repository does not exist should have been thrown");
         }
     }
 }

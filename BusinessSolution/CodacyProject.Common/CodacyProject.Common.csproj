@@ -48,6 +48,7 @@
     <Compile Include="Interfaces\IGitCommitParser.cs" />
     <Compile Include="Interfaces\IGitValidator.cs" />
     <Compile Include="Utilities\CommandLineExecutor.cs" />
+    <Compile Include="Utilities\FileDirectoryUtilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

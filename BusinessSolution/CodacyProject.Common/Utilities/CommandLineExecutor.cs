@@ -16,16 +16,17 @@ namespace CodacyProject.Common.Utilities
         /// <param name="command">Full command with arguments to execute</param>
         /// <param name="hideWindow">If the cmd line should be hidden</param>
         /// <returns></returns>
-        public static string RunCommand(string command, bool hideWindow = true)
+        public static string RunCommand(string command, bool hideWindow = true, string workingDirectory = "C:/")
         {
             ProcessStartInfo startInfo = new ProcessStartInfo();
             if(hideWindow)
             {
                 startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             }
+            startInfo.WorkingDirectory = workingDirectory;
             startInfo.FileName = GeneralConstants.CommandLineExe;
             // The /C is mandatory to run a command
-            startInfo.Arguments = "/C" + command;
+            startInfo.Arguments = "/C" + command + "&if errorlevel 1 echo error";
             startInfo.RedirectStandardOutput = true;
             startInfo.UseShellExecute = false;
 

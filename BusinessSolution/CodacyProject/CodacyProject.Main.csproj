@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C199B59F-67AB-47F8-9BC9-CDCD81D075D9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CodacyProject</RootNamespace>
-    <AssemblyName>CodacyProject</AssemblyName>
+    <RootNamespace>CodacyProject.Main</RootNamespace>
+    <AssemblyName>CodacyProject.Main</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
