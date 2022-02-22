@@ -29,5 +29,32 @@ namespace CodacyProject.Services.Controllers
             }
             
         }
+
+        [HttpGet]
+        public List<GitCommit> GetCommitList(string repositoryURL, int pageSize, int pageNumber)
+        {
+            List<GitCommit> gitCommits = new List<GitCommit>();
+            try
+            {
+                gitCommits = CodacyProjectFacade.GetCommitListByGitHubAPI(repositoryURL, pageSize,  pageNumber);
+            } catch (Exception)
+            {
+                try
+                {
+                    gitCommits = CodacyProjectFacade.GetCommitListByCommandLine(repositoryURL, pageSize, pageNumber);
+                }
+                catch (Exception exception)
+                {
+                    HttpResponseMessage responseMessage = new HttpResponseMessage(HttpStatusCode.InternalServerError)
+                    {
+                        Content = new StringContent(exception.Message),
+                        ReasonPhrase = "An error occured getting the commit list."
+                    };
+                    throw new System.Web.Http.HttpResponseException(responseMessage);
+                }
+            }
+
+            return gitCommits;
+        }
     }
 }

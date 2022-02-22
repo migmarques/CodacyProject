@@ -1,0 +1,470 @@
+[
+	{
+		"sha": "a57a22960332040d500ee80eb4457e38cb9665df",
+		"node_id": "C_kwDOG349FtoAKGE1N2EyMjk2MDMzMjA0MGQ1MDBlZTgwZWI0NDU3ZTM4Y2I5NjY1ZGY",
+		"commit": {
+			"author": {
+				"name": "mpamarques",
+				"email": "mpamarques@outlook.com",
+				"date": "2022-02-21T20:26:08Z"
+			},
+			"committer": {
+				"name": "mpamarques",
+				"email": "mpamarques@outlook.com",
+				"date": "2022-02-21T20:26:08Z"
+			},
+			"message": "fix: Refactor to properly clone entered repository by the user",
+			"tree": {
+				"sha": "7a388384180b2d2ff90787b174fda32d6fa5c217",
+				"url": "https://api.github.com/repos/migmarques/CodacyProject/git/trees/7a388384180b2d2ff90787b174fda32d6fa5c217"
+			},
+			"url": "https://api.github.com/repos/migmarques/CodacyProject/git/commits/a57a22960332040d500ee80eb4457e38cb9665df",
+			"comment_count": 0,
+			"verification": {
+				"verified": false,
+				"reason": "unsigned",
+				"signature": null,
+				"payload": null
+			}
+		},
+		"url": "https://api.github.com/repos/migmarques/CodacyProject/commits/a57a22960332040d500ee80eb4457e38cb9665df",
+		"html_url": "https://github.com/migmarques/CodacyProject/commit/a57a22960332040d500ee80eb4457e38cb9665df",
+		"comments_url": "https://api.github.com/repos/migmarques/CodacyProject/commits/a57a22960332040d500ee80eb4457e38cb9665df/comments",
+		"author": {
+			"login": "migmarques",
+			"id": 100039645,
+			"node_id": "U_kgDOBfZ73Q",
+			"avatar_url": "https://avatars.githubusercontent.com/u/100039645?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/migmarques",
+			"html_url": "https://github.com/migmarques",
+			"followers_url": "https://api.github.com/users/migmarques/followers",
+			"following_url": "https://api.github.com/users/migmarques/following{/other_user}",
+			"gists_url": "https://api.github.com/users/migmarques/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/migmarques/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/migmarques/subscriptions",
+			"organizations_url": "https://api.github.com/users/migmarques/orgs",
+			"repos_url": "https://api.github.com/users/migmarques/repos",
+			"events_url": "https://api.github.com/users/migmarques/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/migmarques/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"committer": {
+			"login": "migmarques",
+			"id": 100039645,
+			"node_id": "U_kgDOBfZ73Q",
+			"avatar_url": "https://avatars.githubusercontent.com/u/100039645?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/migmarques",
+			"html_url": "https://github.com/migmarques",
+			"followers_url": "https://api.github.com/users/migmarques/followers",
+			"following_url": "https://api.github.com/users/migmarques/following{/other_user}",
+			"gists_url": "https://api.github.com/users/migmarques/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/migmarques/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/migmarques/subscriptions",
+			"organizations_url": "https://api.github.com/users/migmarques/orgs",
+			"repos_url": "https://api.github.com/users/migmarques/repos",
+			"events_url": "https://api.github.com/users/migmarques/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/migmarques/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"parents": [
+			{
+				"sha": "b3df2ad8312073170cf1d062d02dba63a046abfe",
+				"url": "https://api.github.com/repos/migmarques/CodacyProject/commits/b3df2ad8312073170cf1d062d02dba63a046abfe",
+				"html_url": "https://github.com/migmarques/CodacyProject/commit/b3df2ad8312073170cf1d062d02dba63a046abfe"
+			}
+		]
+	},
+	{
+		"sha": "b3df2ad8312073170cf1d062d02dba63a046abfe",
+		"node_id": "C_kwDOG349FtoAKGIzZGYyYWQ4MzEyMDczMTcwY2YxZDA2MmQwMmRiYTYzYTA0NmFiZmU",
+		"commit": {
+			"author": {
+				"name": "mpamarques",
+				"email": "mpamarques@outlook.com",
+				"date": "2022-02-20T22:21:11Z"
+			},
+			"committer": {
+				"name": "mpamarques",
+				"email": "mpamarques@outlook.com",
+				"date": "2022-02-20T22:21:11Z"
+			},
+			"message": "feat: First version of exercise 2.1\n\nAlso improved .gitignore file",
+			"tree": {
+				"sha": "f4bc854cf3eb722b2125c62c437b23bb46a2f466",
+				"url": "https://api.github.com/repos/migmarques/CodacyProject/git/trees/f4bc854cf3eb722b2125c62c437b23bb46a2f466"
+			},
+			"url": "https://api.github.com/repos/migmarques/CodacyProject/git/commits/b3df2ad8312073170cf1d062d02dba63a046abfe",
+			"comment_count": 0,
+			"verification": {
+				"verified": false,
+				"reason": "unsigned",
+				"signature": null,
+				"payload": null
+			}
+		},
+		"url": "https://api.github.com/repos/migmarques/CodacyProject/commits/b3df2ad8312073170cf1d062d02dba63a046abfe",
+		"html_url": "https://github.com/migmarques/CodacyProject/commit/b3df2ad8312073170cf1d062d02dba63a046abfe",
+		"comments_url": "https://api.github.com/repos/migmarques/CodacyProject/commits/b3df2ad8312073170cf1d062d02dba63a046abfe/comments",
+		"author": {
+			"login": "migmarques",
+			"id": 100039645,
+			"node_id": "U_kgDOBfZ73Q",
+			"avatar_url": "https://avatars.githubusercontent.com/u/100039645?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/migmarques",
+			"html_url": "https://github.com/migmarques",
+			"followers_url": "https://api.github.com/users/migmarques/followers",
+			"following_url": "https://api.github.com/users/migmarques/following{/other_user}",
+			"gists_url": "https://api.github.com/users/migmarques/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/migmarques/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/migmarques/subscriptions",
+			"organizations_url": "https://api.github.com/users/migmarques/orgs",
+			"repos_url": "https://api.github.com/users/migmarques/repos",
+			"events_url": "https://api.github.com/users/migmarques/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/migmarques/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"committer": {
+			"login": "migmarques",
+			"id": 100039645,
+			"node_id": "U_kgDOBfZ73Q",
+			"avatar_url": "https://avatars.githubusercontent.com/u/100039645?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/migmarques",
+			"html_url": "https://github.com/migmarques",
+			"followers_url": "https://api.github.com/users/migmarques/followers",
+			"following_url": "https://api.github.com/users/migmarques/following{/other_user}",
+			"gists_url": "https://api.github.com/users/migmarques/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/migmarques/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/migmarques/subscriptions",
+			"organizations_url": "https://api.github.com/users/migmarques/orgs",
+			"repos_url": "https://api.github.com/users/migmarques/repos",
+			"events_url": "https://api.github.com/users/migmarques/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/migmarques/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"parents": [
+			{
+				"sha": "f8469ac0602692a0d38fae6a26b34c3eab275699",
+				"url": "https://api.github.com/repos/migmarques/CodacyProject/commits/f8469ac0602692a0d38fae6a26b34c3eab275699",
+				"html_url": "https://github.com/migmarques/CodacyProject/commit/f8469ac0602692a0d38fae6a26b34c3eab275699"
+			}
+		]
+	},
+	{
+		"sha": "f8469ac0602692a0d38fae6a26b34c3eab275699",
+		"node_id": "C_kwDOG349FtoAKGY4NDY5YWMwNjAyNjkyYTBkMzhmYWU2YTI2YjM0YzNlYWIyNzU2OTk",
+		"commit": {
+			"author": {
+				"name": "mpamarques",
+				"email": "mpamarques@outlook.com",
+				"date": "2022-02-20T20:49:16Z"
+			},
+			"committer": {
+				"name": "mpamarques",
+				"email": "mpamarques@outlook.com",
+				"date": "2022-02-20T20:49:16Z"
+			},
+			"message": "fix: Change tests namespace and assembly name",
+			"tree": {
+				"sha": "6f990f250fbac7bc0fd99bcfba649df307c8544a",
+				"url": "https://api.github.com/repos/migmarques/CodacyProject/git/trees/6f990f250fbac7bc0fd99bcfba649df307c8544a"
+			},
+			"url": "https://api.github.com/repos/migmarques/CodacyProject/git/commits/f8469ac0602692a0d38fae6a26b34c3eab275699",
+			"comment_count": 0,
+			"verification": {
+				"verified": false,
+				"reason": "unsigned",
+				"signature": null,
+				"payload": null
+			}
+		},
+		"url": "https://api.github.com/repos/migmarques/CodacyProject/commits/f8469ac0602692a0d38fae6a26b34c3eab275699",
+		"html_url": "https://github.com/migmarques/CodacyProject/commit/f8469ac0602692a0d38fae6a26b34c3eab275699",
+		"comments_url": "https://api.github.com/repos/migmarques/CodacyProject/commits/f8469ac0602692a0d38fae6a26b34c3eab275699/comments",
+		"author": {
+			"login": "migmarques",
+			"id": 100039645,
+			"node_id": "U_kgDOBfZ73Q",
+			"avatar_url": "https://avatars.githubusercontent.com/u/100039645?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/migmarques",
+			"html_url": "https://github.com/migmarques",
+			"followers_url": "https://api.github.com/users/migmarques/followers",
+			"following_url": "https://api.github.com/users/migmarques/following{/other_user}",
+			"gists_url": "https://api.github.com/users/migmarques/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/migmarques/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/migmarques/subscriptions",
+			"organizations_url": "https://api.github.com/users/migmarques/orgs",
+			"repos_url": "https://api.github.com/users/migmarques/repos",
+			"events_url": "https://api.github.com/users/migmarques/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/migmarques/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"committer": {
+			"login": "migmarques",
+			"id": 100039645,
+			"node_id": "U_kgDOBfZ73Q",
+			"avatar_url": "https://avatars.githubusercontent.com/u/100039645?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/migmarques",
+			"html_url": "https://github.com/migmarques",
+			"followers_url": "https://api.github.com/users/migmarques/followers",
+			"following_url": "https://api.github.com/users/migmarques/following{/other_user}",
+			"gists_url": "https://api.github.com/users/migmarques/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/migmarques/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/migmarques/subscriptions",
+			"organizations_url": "https://api.github.com/users/migmarques/orgs",
+			"repos_url": "https://api.github.com/users/migmarques/repos",
+			"events_url": "https://api.github.com/users/migmarques/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/migmarques/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"parents": [
+			{
+				"sha": "323879d605a8b49b2dcd1af0c3bb53be9c9acdb0",
+				"url": "https://api.github.com/repos/migmarques/CodacyProject/commits/323879d605a8b49b2dcd1af0c3bb53be9c9acdb0",
+				"html_url": "https://github.com/migmarques/CodacyProject/commit/323879d605a8b49b2dcd1af0c3bb53be9c9acdb0"
+			}
+		]
+	},
+	{
+		"sha": "323879d605a8b49b2dcd1af0c3bb53be9c9acdb0",
+		"node_id": "C_kwDOG349FtoAKDMyMzg3OWQ2MDVhOGI0OWIyZGNkMWFmMGMzYmI1M2JlOWM5YWNkYjA",
+		"commit": {
+			"author": {
+				"name": "mpamarques",
+				"email": "mpamarques@outlook.com",
+				"date": "2022-02-20T20:05:13Z"
+			},
+			"committer": {
+				"name": "mpamarques",
+				"email": "mpamarques@outlook.com",
+				"date": "2022-02-20T20:05:13Z"
+			},
+			"message": "feat: First version of exercise 1\n\nAlso changed gitignore to add content that should not be commited",
+			"tree": {
+				"sha": "2b5b1e9c55d4c4416b41607f56cc643c1caeb51c",
+				"url": "https://api.github.com/repos/migmarques/CodacyProject/git/trees/2b5b1e9c55d4c4416b41607f56cc643c1caeb51c"
+			},
+			"url": "https://api.github.com/repos/migmarques/CodacyProject/git/commits/323879d605a8b49b2dcd1af0c3bb53be9c9acdb0",
+			"comment_count": 0,
+			"verification": {
+				"verified": false,
+				"reason": "unsigned",
+				"signature": null,
+				"payload": null
+			}
+		},
+		"url": "https://api.github.com/repos/migmarques/CodacyProject/commits/323879d605a8b49b2dcd1af0c3bb53be9c9acdb0",
+		"html_url": "https://github.com/migmarques/CodacyProject/commit/323879d605a8b49b2dcd1af0c3bb53be9c9acdb0",
+		"comments_url": "https://api.github.com/repos/migmarques/CodacyProject/commits/323879d605a8b49b2dcd1af0c3bb53be9c9acdb0/comments",
+		"author": {
+			"login": "migmarques",
+			"id": 100039645,
+			"node_id": "U_kgDOBfZ73Q",
+			"avatar_url": "https://avatars.githubusercontent.com/u/100039645?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/migmarques",
+			"html_url": "https://github.com/migmarques",
+			"followers_url": "https://api.github.com/users/migmarques/followers",
+			"following_url": "https://api.github.com/users/migmarques/following{/other_user}",
+			"gists_url": "https://api.github.com/users/migmarques/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/migmarques/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/migmarques/subscriptions",
+			"organizations_url": "https://api.github.com/users/migmarques/orgs",
+			"repos_url": "https://api.github.com/users/migmarques/repos",
+			"events_url": "https://api.github.com/users/migmarques/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/migmarques/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"committer": {
+			"login": "migmarques",
+			"id": 100039645,
+			"node_id": "U_kgDOBfZ73Q",
+			"avatar_url": "https://avatars.githubusercontent.com/u/100039645?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/migmarques",
+			"html_url": "https://github.com/migmarques",
+			"followers_url": "https://api.github.com/users/migmarques/followers",
+			"following_url": "https://api.github.com/users/migmarques/following{/other_user}",
+			"gists_url": "https://api.github.com/users/migmarques/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/migmarques/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/migmarques/subscriptions",
+			"organizations_url": "https://api.github.com/users/migmarques/orgs",
+			"repos_url": "https://api.github.com/users/migmarques/repos",
+			"events_url": "https://api.github.com/users/migmarques/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/migmarques/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"parents": [
+			{
+				"sha": "2e94121e1b5b0581a917555e1f5cdfbd05344345",
+				"url": "https://api.github.com/repos/migmarques/CodacyProject/commits/2e94121e1b5b0581a917555e1f5cdfbd05344345",
+				"html_url": "https://github.com/migmarques/CodacyProject/commit/2e94121e1b5b0581a917555e1f5cdfbd05344345"
+			}
+		]
+	},
+	{
+		"sha": "2e94121e1b5b0581a917555e1f5cdfbd05344345",
+		"node_id": "C_kwDOG349FtoAKDJlOTQxMjFlMWI1YjA1ODFhOTE3NTU1ZTFmNWNkZmJkMDUzNDQzNDU",
+		"commit": {
+			"author": {
+				"name": "mpmarques",
+				"email": "miguelmarques@criticalmanufacturing.com",
+				"date": "2022-02-20T17:38:06Z"
+			},
+			"committer": {
+				"name": "mpmarques",
+				"email": "miguelmarques@criticalmanufacturing.com",
+				"date": "2022-02-20T17:38:06Z"
+			},
+			"message": "chore: Add GitIgnore for folder that will contain local application run objects",
+			"tree": {
+				"sha": "80d4a3b495aeed52953be633cc0315c32ee6e673",
+				"url": "https://api.github.com/repos/migmarques/CodacyProject/git/trees/80d4a3b495aeed52953be633cc0315c32ee6e673"
+			},
+			"url": "https://api.github.com/repos/migmarques/CodacyProject/git/commits/2e94121e1b5b0581a917555e1f5cdfbd05344345",
+			"comment_count": 0,
+			"verification": {
+				"verified": false,
+				"reason": "unsigned",
+				"signature": null,
+				"payload": null
+			}
+		},
+		"url": "https://api.github.com/repos/migmarques/CodacyProject/commits/2e94121e1b5b0581a917555e1f5cdfbd05344345",
+		"html_url": "https://github.com/migmarques/CodacyProject/commit/2e94121e1b5b0581a917555e1f5cdfbd05344345",
+		"comments_url": "https://api.github.com/repos/migmarques/CodacyProject/commits/2e94121e1b5b0581a917555e1f5cdfbd05344345/comments",
+		"author": {
+			"login": "mpamarques",
+			"id": 97247449,
+			"node_id": "U_kgDOBcvg2Q",
+			"avatar_url": "https://avatars.githubusercontent.com/u/97247449?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/mpamarques",
+			"html_url": "https://github.com/mpamarques",
+			"followers_url": "https://api.github.com/users/mpamarques/followers",
+			"following_url": "https://api.github.com/users/mpamarques/following{/other_user}",
+			"gists_url": "https://api.github.com/users/mpamarques/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/mpamarques/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/mpamarques/subscriptions",
+			"organizations_url": "https://api.github.com/users/mpamarques/orgs",
+			"repos_url": "https://api.github.com/users/mpamarques/repos",
+			"events_url": "https://api.github.com/users/mpamarques/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/mpamarques/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"committer": {
+			"login": "mpamarques",
+			"id": 97247449,
+			"node_id": "U_kgDOBcvg2Q",
+			"avatar_url": "https://avatars.githubusercontent.com/u/97247449?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/mpamarques",
+			"html_url": "https://github.com/mpamarques",
+			"followers_url": "https://api.github.com/users/mpamarques/followers",
+			"following_url": "https://api.github.com/users/mpamarques/following{/other_user}",
+			"gists_url": "https://api.github.com/users/mpamarques/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/mpamarques/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/mpamarques/subscriptions",
+			"organizations_url": "https://api.github.com/users/mpamarques/orgs",
+			"repos_url": "https://api.github.com/users/mpamarques/repos",
+			"events_url": "https://api.github.com/users/mpamarques/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/mpamarques/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"parents": [
+			{
+				"sha": "b51312d87cc08796d7c8464fcd354cbda5291299",
+				"url": "https://api.github.com/repos/migmarques/CodacyProject/commits/b51312d87cc08796d7c8464fcd354cbda5291299",
+				"html_url": "https://github.com/migmarques/CodacyProject/commit/b51312d87cc08796d7c8464fcd354cbda5291299"
+			}
+		]
+	},
+	{
+		"sha": "b51312d87cc08796d7c8464fcd354cbda5291299",
+		"node_id": "C_kwDOG349FtoAKGI1MTMxMmQ4N2NjMDg3OTZkN2M4NDY0ZmNkMzU0Y2JkYTUyOTEyOTk",
+		"commit": {
+			"author": {
+				"name": "migmarques",
+				"email": "100039645+migmarques@users.noreply.github.com",
+				"date": "2022-02-19T17:07:34Z"
+			},
+			"committer": {
+				"name": "GitHub",
+				"email": "noreply@github.com",
+				"date": "2022-02-19T17:07:34Z"
+			},
+			"message": "Initial commit",
+			"tree": {
+				"sha": "b36f007c4cea15d0a592cf94b46fbecbc8fe91d3",
+				"url": "https://api.github.com/repos/migmarques/CodacyProject/git/trees/b36f007c4cea15d0a592cf94b46fbecbc8fe91d3"
+			},
+			"url": "https://api.github.com/repos/migmarques/CodacyProject/git/commits/b51312d87cc08796d7c8464fcd354cbda5291299",
+			"comment_count": 0,
+			"verification": {
+				"verified": true,
+				"reason": "valid",
+				"signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJiESPWCRBK7hj4Ov3rIwAAkS8IAJ/SGYqkDdo9gEAhJAlUn/sI\ndkvEf0OSJsLDOjG+v+XBO0T8AQQNrkJuHIjWEThl72AZz4S3BC2GW/qIiIpFBixy\njaOg1N7Zr/wqOpFjj4DdhrKKDa/MLtccKaLoMoSXB1tdK1d4Bafu1KLxbfJc3oFY\n/KSKlxgz8YX40e5azo1z7pDDUfm59wDiMFDaB2Wq+aktI+iKtNPUjFG0Lngr54vh\nMnZd/7SZUAO36/+wWz0WAXjIpDKQPiIYM8wMBEIQMMdlEgfOk4sBgcisGys8GQDp\n0iur52WkgOBP87OdPtVqWrBt5P2BaS/o2y2h20Ac98F3CezUGhPUJqNGIdHyi68=\n=DEfD\n-----END PGP SIGNATURE-----\n",
+				"payload": "tree b36f007c4cea15d0a592cf94b46fbecbc8fe91d3\nauthor migmarques <100039645+migmarques@users.noreply.github.com> 1645290454 +0000\ncommitter GitHub <noreply@github.com> 1645290454 +0000\n\nInitial commit"
+			}
+		},
+		"url": "https://api.github.com/repos/migmarques/CodacyProject/commits/b51312d87cc08796d7c8464fcd354cbda5291299",
+		"html_url": "https://github.com/migmarques/CodacyProject/commit/b51312d87cc08796d7c8464fcd354cbda5291299",
+		"comments_url": "https://api.github.com/repos/migmarques/CodacyProject/commits/b51312d87cc08796d7c8464fcd354cbda5291299/comments",
+		"author": {
+			"login": "migmarques",
+			"id": 100039645,
+			"node_id": "U_kgDOBfZ73Q",
+			"avatar_url": "https://avatars.githubusercontent.com/u/100039645?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/migmarques",
+			"html_url": "https://github.com/migmarques",
+			"followers_url": "https://api.github.com/users/migmarques/followers",
+			"following_url": "https://api.github.com/users/migmarques/following{/other_user}",
+			"gists_url": "https://api.github.com/users/migmarques/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/migmarques/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/migmarques/subscriptions",
+			"organizations_url": "https://api.github.com/users/migmarques/orgs",
+			"repos_url": "https://api.github.com/users/migmarques/repos",
+			"events_url": "https://api.github.com/users/migmarques/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/migmarques/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"committer": {
+			"login": "web-flow",
+			"id": 19864447,
+			"node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+			"avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+			"gravatar_id": "",
+			"url": "https://api.github.com/users/web-flow",
+			"html_url": "https://github.com/web-flow",
+			"followers_url": "https://api.github.com/users/web-flow/followers",
+			"following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+			"gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+			"starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+			"subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+			"organizations_url": "https://api.github.com/users/web-flow/orgs",
+			"repos_url": "https://api.github.com/users/web-flow/repos",
+			"events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+			"received_events_url": "https://api.github.com/users/web-flow/received_events",
+			"type": "User",
+			"site_admin": false
+		},
+		"parents": []
+	}
+]

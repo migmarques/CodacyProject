@@ -17,12 +17,28 @@ namespace CodacyProject.Facades
                 RepositoryUrl = repositoryURL
             };
             List<GitCommit> gitCommits = gitCommitListCommandLine.GetCommitList();
+            return GetPageGitCommits(gitCommits, pageSize, pageNumber);
+        }
+
+        public static List<GitCommit> GetCommitListByGitHubAPI(string repositoryURL, int pageSize, int pageNumber)
+        {
+            GitCommitListGitHubAPI gitCommitListGitHubAPI = new GitCommitListGitHubAPI
+            {
+                RepositoryUrl = repositoryURL
+            };
+            List<GitCommit> gitCommits = gitCommitListGitHubAPI.GetCommitList();
+            return GetPageGitCommits(gitCommits, pageSize, pageNumber);
+        }
+
+        private static List<GitCommit> GetPageGitCommits(List<GitCommit> gitCommits, int pageSize, int pageNumber)
+        {
+            List<GitCommit> gitCommitsToReturn = new List<GitCommit>(gitCommits);
             if (pageSize > 0 && pageNumber > 0)
             {
-                gitCommits = gitCommits.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
+                gitCommitsToReturn = gitCommits.Skip((pageNumber - 1) * pageSize).Take(pageSize).ToList();
             }
 
-            return gitCommits;
+            return gitCommitsToReturn;
         }
     }
 }
